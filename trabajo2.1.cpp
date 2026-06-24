@@ -21,8 +21,8 @@ int main() {
         while (izq < der) {
             
             if (palabra[izq] != palabra[der]) {
-                esPalindromo = false;  // Ya no es palindromo
-                break;                  // Nos salimos, no hay que seguir
+                esPalindromo = false; 
+                break;                  
             }
 
             izq++;
