@@ -31,11 +31,12 @@ int main() {
 
 
         if (esPalindromo) {
-            cout << "P" << endl;
+            cout << "Palindromo" << endl;
         } else {
-            cout << "NP" << endl;
+            cout << "NoPalindromo" << endl;
         }
     }
 
     return 0;
+    
 }
