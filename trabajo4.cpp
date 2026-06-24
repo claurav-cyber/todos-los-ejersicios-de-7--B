@@ -5,6 +5,7 @@ int main() {
     int n, c;
     cin >> n >> c;
     
+    
     int cups[1000001] = {0};
     
     for (int i = 0; i < c; i++) {
@@ -16,6 +17,7 @@ int main() {
     for (int i = 1; i <= n; i++) {
         cout << cups[i] << "\n";
     }
+    cout <<10<<"esto es un a variable agregada;";
     
     return 0;
 }
